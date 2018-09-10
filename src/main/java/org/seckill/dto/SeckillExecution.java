@@ -6,7 +6,7 @@ import org.seckill.enums.SeckillStatEnum;
 /**
  * 用来封装给页面的结果类
  */
-public class SeckillExecution {
+public class SeckillExecution extends Throwable {
 
     private long seckillId;
 

@@ -34,3 +34,5 @@ create table success_killed(
   PRIMARY KEY(seckill_id,user_phone),/* 联合主键 */
   key idx_create_time(create_time)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='秒杀成功明细表';
+
+
